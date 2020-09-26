@@ -1,0 +1,31 @@
+.home {
+    /* border: solid 1px #7af; */
+}
+
+.landing {
+    height: 91vh !important;
+    overflow: hidden;
+}
+
+.landing_info {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    position: absolute !important;
+    margin: 0 auto !important;
+}
+
+.section_divider {
+    background-color: #f8f9f9;
+    height: 30px;
+}
+
+/* CONTACT */
+.contact_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_box > input {
+    width: 50%;
+    margin-bottom: 1em;
+}

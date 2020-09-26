@@ -1,0 +1,25 @@
+.navbar {
+    /* background-color: #f8f9f9; */
+    border-bottom: solid 1px #f0f0f0;
+}
+
+.links > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links > ul > li {
+    padding: 0.5em;
+}
+
+.links > ul > li > a {
+    color: #333;
+}
+
+.links > ul > li > a:hover {
+    color: #777;
+    text-decoration: none;
+}

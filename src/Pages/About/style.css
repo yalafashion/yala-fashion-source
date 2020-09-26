@@ -1,0 +1,42 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url("../../Assets/Fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: NunitoRegular;
+    src: url("../../Assets/Fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: NunitoSemiBold;
+    src: url("../../Assets/Fonts/Nunito-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url("../../Assets/Fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: RalewaySemiBold;
+    src: url("../../Assets/Fonts/Raleway-SemiBold.ttf");
+}
+
+.about_box > h3 {
+    font-family: RalewaySemiBold;
+    margin-top: 0.5em;
+}
+
+.about_box > p {
+    font-family: LatoRegular;
+    color: #333;
+}
+
+.about_box > img {
+    width: 100%;
+    height: 40%;
+    max-height: 500px;
+    object-fit: cover;
+    
+}
